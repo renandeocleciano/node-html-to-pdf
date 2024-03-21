@@ -15,7 +15,7 @@ exports.print = async (req, res) => {
       creation_date: "04-05-1993",
       total_amount: 141.5,
     },
-    baseUrl: `${req.protocol}://${req.get("host")}`, // http://localhost:3000
+    baseUrl: `${req.protocol}://${req.get("host")}`,
   };
 
   const htmlPDF = new PuppeteerHTMLPDF();
